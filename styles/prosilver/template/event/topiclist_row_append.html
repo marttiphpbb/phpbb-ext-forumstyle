@@ -1,0 +1,9 @@
+{%- if topicrow.U_MARTTIPHPBB_FORUMSTYLE -%}
+    <p class="marttiphpbb-forumstyle-row">
+        {{- lang('MARTTIPHPBB_FORUMSTYLE_ARCHIVED_FROM', topicrow.U_MARTTIPHPBB_FORUMSTYLE, topicrow.MARTTIPHPBB_FORUMSTYLE_NAME) -}}
+    </p>
+{%- elseif searchresults.U_MARTTIPHPBB_FORUMSTYLE -%}
+    <p class="marttiphpbb-forumstyle-row">
+        {{- lang('MARTTIPHPBB_FORUMSTYLE_ARCHIVED_FROM', searchresults.U_MARTTIPHPBB_FORUMSTYLE, searchresults.MARTTIPHPBB_FORUMSTYLE_NAME) -}}
+    </p>
+{%- endif -%}
