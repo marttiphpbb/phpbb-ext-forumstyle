@@ -1,6 +1,6 @@
 # PhpBB Extension - marttiphpbb Forum Style
 
-[Topic on phpBB.com](https://www.phpbb.com/community/viewtopic.php?f=456&t=2470326)
+[Topic on phpBB.com](#)
 
 ## Requirements
 
@@ -9,10 +9,7 @@
 
 ## Features
 
-With this extension you define one forum as the "Archive" for obsolete topics.
-In the "Archive forum" the original forum is shown below the title of each topic.
-Two moderator actions are provided "Archive" and "Restore". They depend on the same permission as "Move"(topics).
-Note that you still have to set yourself the appropriate permissions for the "Forum Style" and give it a proper name (suggestion: "Archive"). Normal users should not be able to post in there.
+This phpBB extension adds classes to Prosilver to indicate to which forum posts belong. This way posts belonging certain forum can be given an alternative style. For applying the styling itself, the [Extra Style Extension](https://github.com/marttiphpbb/phpbb-ext-extrastyle) can be used.
 
 ## Quick Install
 
@@ -36,36 +33,4 @@ You can install this on the latest release of phpBB 3.2 by following the steps b
 
 [GPL-2.0](license.txt)
 
-## Screenshots
-
-### Archived Topic
-
-![Archived Topic](doc/archived_topic.png)
-
-### Forum Style
-
-![Forum Style](doc/archive_forum.png)
-
-### Confirm Archive
-
-![Confirm Archive](doc/confirm_archive.png)
-
-### Confirm Restore
-
-![Confirm Restore](doc/confirm_restore.png)
-
-### MCP Forum
-
-![MCP Forum](doc/mcp_forum.png)
-
-### MCP Topic
-
-![MCP Topic](doc/mcp_topic.png)
-
-### Quickmod
-
-![Quickmod](doc/quickmod.png)
-
-### ACP
-
-![ACP](doc/acp.png)
+## Screenshots (and How-To-Use)
