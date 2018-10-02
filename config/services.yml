@@ -1,5 +1,7 @@
 services:
-    marttiphpbb.forumstyle.main_listener:
-        class: marttiphpbb\forumstyle\event\main_listener
+    marttiphpbb.forumstyle.listener:
+        class: marttiphpbb\forumstyle\event\listener
+        arguments:
+            - '@template'
         tags:
             - { name: event.listener }

@@ -1,6 +1,5 @@
 ;(function($, window, document) {
 	$('document').ready(function(){
-		$('div.tabs-container h2')
-			.append($('span.marttiphpbb-forumstyle'));
+		$('div#cp-main').addClass('forum-' + $('span#marttiphpbb-forumstyle').data('forum-id'));
 	});
 })(jQuery, window, document);
