@@ -24,17 +24,20 @@ class listener implements EventSubscriberInterface
 	static public function getSubscribedEvents()
 	{
 		return [
-			'core.mcp_view_forum_modify_sql'
-				=> 'core_mcp_view_forum_modify_sql',
+			'core.modify_mcp_modules_display_option'
+				=> 'core_modify_mcp_modules_display_option',
 		];
 	}
 
-	public function core_mcp_view_forum_modify_sql(event $event)
+	public function core_modify_mcp_modules_display_option(event $event)
 	{
 		$forum_id = $event['forum_id'];
 
-		$this->template->assign_vars([
-			'MARTTIPHPBB_FORUMSTYLE_FORUM_ID'	=> $forum_id,
-		]);
+		if ($forum_id)
+		{
+			$this->template->assign_vars([
+				'MARTTIPHPBB_FORUMSTYLE_FORUM_ID'	=> $forum_id,
+			]);
+		}
 	}
 }
