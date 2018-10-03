@@ -36,3 +36,15 @@ You can install this on the latest release of phpBB 3.2 by following the steps b
 [GPL-2.0](license.txt)
 
 ## Screenshots (and How-To-Use)
+
+![Forumlist edit](doc/forumlist_edit.png)
+
+![Index](doc/index.png)
+
+![Viewforum](doc/viewforum.png)
+
+![MCP Viewforum](doc/mcp_viewforum.png)
+
+![Viewtopic](doc/viewtopic.png)
+
+![MCP Viewtopic](doc/mcp_viewtopic.png)
