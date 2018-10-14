@@ -9,7 +9,7 @@
 
 ## Features
 
-This phpBB extension adds classes in the form of `forum-ID` to Prosilver to indicate to which forum posts belong (Replace `ID` with the actual forum-id-number). This way certain forums can be given a certain style tweak.
+This phpBB extension adds classes in the form of `forum-ID` to Prosilver (Replace `ID` with the actual forum-id-number). This way certain forums can be given a certain style tweak.
 For applying the style itself, i.e the [Extra Style Extension](https://github.com/marttiphpbb/phpbb-ext-extrastyle) can be used.
 This extension has no configuration.
 
@@ -37,7 +37,7 @@ You can install this on the latest release of phpBB 3.2 by following the steps b
 
 ## Screenshots (and How-To-Use)
 
-These examples show how to give one forum a different background color.
+These examples show how to give one forum a different background color (Pink).
 These screenshots are produced with the combination of the [Extra Style Extension](https://github.com/marttiphpbb/phpbb-ext-extrastyle).
 (Also the effects of the [Archive Forum](https://github.com/martiphpbb/phpbb-ext-archiveforum) and [Calendar Mono/Tag](https://github.com/marttiphpbb/phpbb-ext-calendarmono/doc/set.md) are visible in these examples.)
 
