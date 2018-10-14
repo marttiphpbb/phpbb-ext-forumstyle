@@ -1,6 +1,6 @@
 # PhpBB Extension - marttiphpbb Forum Style
 
-[Topic on phpBB.com](#)
+[Topic on phpBB.com](https://www.phpbb.com/community/viewtopic.php?f=456&t=2489476)
 
 ## Requirements
 
@@ -37,7 +37,7 @@ You can install this on the latest release of phpBB 3.2 by following the steps b
 
 ## Screenshots (and How-To-Use)
 
-These examples show how to give one forum a different background color (Pink).
+These examples show how to give one forum a different background color (pink).
 These screenshots are produced with the combination of the [Extra Style Extension](https://github.com/marttiphpbb/phpbb-ext-extrastyle).
 (Also the effects of the [Archive Forum](https://github.com/martiphpbb/phpbb-ext-archiveforum) and [Calendar Mono/Tag](https://github.com/marttiphpbb/phpbb-ext-calendarmono/doc/set.md) are visible in these examples.)
 
