@@ -1,4 +1,4 @@
-<span id="marttiphpbb-forumstyle" class="hidden" data-forum-id="{%- if forumrow -%}{{- forumrow.FORUM_ID -}}{%- else -%}{{- searchresults.FORUM_ID -}}{%- endif -%}"></span>
+<span class="marttiphpbb-forumstyle hidden" data-forum-id="{%- if forumrow -%}{{- forumrow.FORUM_ID -}}{%- else -%}{{- searchresults.FORUM_ID -}}{%- endif -%}"></span>
 {%- if not marttiphpbb_forumstyle_forumlist_js -%}
     {%- INCLUDEJS '@marttiphpbb_forumstyle/js/forumlist.js' -%}
     {%- set marttiphpbb_forumstyle_forumlist_js = true -%}
